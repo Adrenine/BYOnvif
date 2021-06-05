@@ -1,0 +1,27 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - KissXML (5.3.1):
+    - KissXML/All (= 5.3.1)
+  - KissXML/Additions (5.3.1):
+    - KissXML/Core
+  - KissXML/All (5.3.1):
+    - KissXML/Additions
+    - KissXML/Core
+  - KissXML/Core (5.3.1)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - KissXML
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - KissXML
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
+
+PODFILE CHECKSUM: 55146544bdb92d5b8537f5591d65565b89d636ec
+
+COCOAPODS: 1.10.0

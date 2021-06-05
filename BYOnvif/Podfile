@@ -1,0 +1,10 @@
+platform:ios, '11.0'
+
+abstract_target 'abstract_pod' do  #这里的abstract_pod在实际targets中不存在，是虚拟
+    pod 'CocoaAsyncSocket'
+    
+    target 'BYOnvifXml' do
+        pod 'KissXML'
+    end
+
+end
